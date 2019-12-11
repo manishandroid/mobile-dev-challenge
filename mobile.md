@@ -73,7 +73,7 @@ Production ready solution that you are proud of.
 
 ## Wireframe
 *For reference only, you can be creative with design and UI/UX features.*
-![Wireframe](assets/mobile-engineer-wireframe.png)
+![Wireframe](/mobile-engineer-wireframe.png)
 
 ## Bonus Points
 - Automation test.
