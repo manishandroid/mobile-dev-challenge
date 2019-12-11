@@ -76,7 +76,11 @@ Production ready solution that you are proud of.
 ![Wireframe](/mobile-engineer-wireframe.png)
 
 ## Bonus Points
-- Automation test.
+- Unit tests
+- Code Quality
+- App Architecture – How do you architecture your application and why.
+- Quality of implementation &amp; UX.
+- We take memory leaks seriously, make sure there aren’t any.
 - Additional features that you think will enhance the user experience.
 
 **Questions? We love to answer: <manish@rewardz.sg>**
