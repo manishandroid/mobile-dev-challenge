@@ -65,7 +65,6 @@ Production ready solution that you are proud of.
 - Candidates are free to use any libraries
 
 * ### iOS Engineer
-	- Storyboard or XIB is not allowed (Create UI with code only)
 	- Must write in the latest Swift version
 
 * ### Android Engineer
