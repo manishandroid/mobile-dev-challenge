@@ -58,7 +58,7 @@ Production ready solution that you are proud of.
 	- Do not copy-paste any part of this file (task, API documentation, etc.)
 	- This is needed to prevent other candidates from finding your solution
 - For private repos access: 
-	- Github: Please add [techchallenge-rewardz](https://github.com/manishandroid) as project collaborator
+	- Github: Please add [techchallenge-rewardz](https://github.com/manishandroid), [Aniruddha](https://github.com/AniruddhaKulk) as project collaborators
 - App should cache deliveries (Cached deliveries should be available offline)
 - Candidates are free to use any libraries
 
@@ -80,4 +80,4 @@ Production ready solution that you are proud of.
 - We take memory leaks seriously, make sure there aren’t any.
 - Additional features that you think will enhance the user experience.
 
-**Questions? We love to answer: <manish@rewardz.sg>**
+**Questions? We love to answer: <manish@rewardz.sg>, <aniruddha@rewardz.sg>, <prateekjain@rewardz.sg>**
