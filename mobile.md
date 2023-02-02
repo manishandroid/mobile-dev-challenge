@@ -1,52 +1,73 @@
-# Rewardz Mobile Developer Technical Challenge
+# Mobile Developer Technical Challenge
 
 ### Business requirement
-As an user I want to be able to see a list of my deliveries, including receivers photo and item description. I also want to be able to see the delivery location on the map and full description when I click on the delivery item.
+As an user I want to be able to see a list of products, including product photos and description. 
+Please feel free to be more creative while developing UI for this assignment.
 
 ### API Specification
 
-**Get list of deliveries**
+**Get list of products**
   * Protocol
     `HTTPS`
   * Hostname
-    `demo3196012.mockable.io`
+    `(https://dummyjson.com/)`
   * Method
     `GET`
   * Endpoint
-    `/deliveries`
+    `/products`
   * Response example:
     `HTTP code 200`
     ```json
-    [
-        {
-            "id": 0,
-            "description": "Deliver documents to Andrio",
-            "imageUrl": "https://s3-ap-southeast-1.amazonaws.com/images/pet-8.jpeg",
-            "location": {
-                "lat": 22.336093,
-                "lng": 114.155288,
-                "address": "Cheung Sha Wan"
-            }
-        }, {
-            "id": 1,
-            "description": "Deliver parcel to Leviero",
-            "imageUrl": "https://s3-ap-southeast-1.amazonaws.com/images/pet-0.jpeg",
-            "location": {
-                "lat": 22.319181,
-                "lng": 114.170008,
-                "address": "Mong Kok"
-            }
-        },
-        ...
-    ]
+    {
+	"products":[
+			{
+			"id":1,
+			"title":"iPhone 9",
+			"description":"An apple mobile which is nothing like apple",
+			"price":549,
+			"discountPercentage":12.96,
+			"rating":4.69,
+			"stock":94,
+			"brand":"Apple",
+			"category":"smartphones",
+			"thumbnail":"https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+			"images":[
+				"https://i.dummyjson.com/data/products/1/1.jpg",
+				"https://i.dummyjson.com/data/products/1/2.jpg",
+				"https://i.dummyjson.com/data/products/1/3.jpg",
+				"https://i.dummyjson.com/data/products/1/4.jpg",
+				"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+				]
+			},
+			{
+			"id":2,
+			"title":"iPhone X",
+			"description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+			"price":899,
+			"discountPercentage":17.94,
+			"rating":4.44,
+			"stock":34,
+			"brand":"Apple",
+			"category":"smartphones",
+			"thumbnail":"https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+			"images":[
+				"https://i.dummyjson.com/data/products/2/1.jpg",
+				"https://i.dummyjson.com/data/products/2/2.jpg",
+				"https://i.dummyjson.com/data/products/2/3.jpg",
+				"https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+				]
+			},
+			.....
+			.....
+			.....
+		]
+	}
     ```
 
-### User Requirements
-- Retrieve list of deliveries from the API
-- Display list of deliveries.
-- Show details when user select an item in the list.
-- Add marker on the map based on the provided lat/lng. 
-  - NOTE: if you use Google Maps, you don't have to provide actual API key to us, just describe in the README how to use a custom key with your solution. 
+### Functional Requirements
+- Retrieve products from the API
+- Display list of products.
+- Show details when user select an product in the list in next screen.
 
 ### What we expect from you?
 Production ready solution that you are proud of.
@@ -54,12 +75,12 @@ Production ready solution that you are proud of.
 ## Technical Requirement
 - Source code must be stored in a Git repository (you can send us github or bitbucket link)
 - For public repos:
-	- Avoid words `rewardz` and `challenge`
+	- Avoid words `rewardz`, `alberta payment`, `take-home`, `assignment`,  and `challenge`
 	- Do not copy-paste any part of this file (task, API documentation, etc.)
 	- This is needed to prevent other candidates from finding your solution
 - For private repos access: 
-	- Github: Please add [techchallenge-rewardz](https://github.com/manishandroid), [Aniruddha](https://github.com/AniruddhaKulk) as project collaborators
-- App should cache deliveries (Cached deliveries should be available offline)
+	- Github: Please add [techchallenge-manish](https://github.com/manishandroid) as project collaborators
+- App should cache products (Cached products should be available offline)
 - Candidates are free to use any libraries
 
 * ### iOS Engineer
@@ -127,4 +148,4 @@ The scoring has six different sections (see table above), all of which contribut
  4. If the total score is less than the cut-off score, respond with an email to the candidate which contains the score and what criteria they lost points in.
 
 
-**Questions? We love to answer: <manish@rewardz.sg>, <aniruddha@rewardz.sg>, <prateekjain@rewardz.sg>**
+**Questions? We love to answer: Drop your queries to <manishdubey81189@gmail.com>
